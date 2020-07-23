@@ -3,22 +3,109 @@
     flex-direction: column;
     height: 700px;
     width: 700px;
-    border: 1px solid black;
-    background-color: deepskyblue;
+    background-color: powderblue;
+    border-radius: 10px;
+}
+.input {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    margin: 2%;
+    text-align: center;
+    padding: 1%;
+}
+.output {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 6;
+    padding: 2%;
+    margin: 2%;
 
 }
 
 .list {
     display: flex;
-    flex-direction: row;
-    flex-grow: 1;
-    background-color: red;
-    
+    flex-direction: column;
+    flex-grow: 11;
+    border-radius: 10px;
+    background-color: seashell;
+    text-align: center; 
+    height: 70%;
+    justify-content: center;
+    align-items: center;
 }
+ .add-button {
+     flex-grow: 1;
+     align-self: center;
+     background-color: powderblue;
+     border-radius: 70px;
+     justify-content: center;
+     align-items: center;
+ }
 .completed-list{
-    flex-grow: 10;
-    background-color: lightseagreen;
-
+    flex-grow: 1;
+    border-radius: 10px;
+    padding: 2%;
+    margin: 2%;
+    background-color: seashell;
+    text-align: center;
 }
 .to-be-completed {
+    flex-grow: 1;
+    border-radius: 10px;
+    padding: 2%;
+    margin: 2%;
+    background-color: seashell;
+    text-align: center;
 }
+ 
+.itemlist {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.liItem {
+    flex-grow: 7;
+    background-color: skyblue;
+    border-radius: 50px;
+}
+
+
+.delete {
+    flex-grow: 1;
+    border-radius: 50px;
+    background-color: rgba(255, 0, 0, 0.582);
+}
+ 
+.complete {
+    flex-grow: 1;
+    border-radius: 50px;
+    background-color: rgba(0, 128, 0, 0.63);
+}
+ #tlist {
+    list-style-type: none;
+}
+
+#clist {
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
